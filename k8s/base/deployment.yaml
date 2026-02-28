@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: sre-app
 spec:
-  replicas: 1
+  replicas: 6
   selector:
     matchLabels:
       app: sre-app
