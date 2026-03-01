@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        app: sre-app
+        app: sre-app-dev
     spec:
       containers:
         - name: nginx
