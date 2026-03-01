@@ -4,7 +4,7 @@ metadata:
   name: sre-service
 spec:
   selector:
-    app: sre-app
+    app: sre-app-dev
   ports:
     - port: 80
       targetPort: 80
