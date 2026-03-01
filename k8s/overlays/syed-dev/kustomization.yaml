@@ -9,8 +9,6 @@ resources:
   - ../../base
   - namespace.yaml
 
-  environment: dev
-
 patches:
   - target:
       kind: Deployment
@@ -19,5 +17,3 @@ patches:
       - op: replace
         path: /spec/replicas
         value: 1
-
-
