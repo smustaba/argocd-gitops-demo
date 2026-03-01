@@ -13,7 +13,7 @@ commonLabels:
 patches:
   - target:
       kind: Deployment
-      name: sre-app
+      name: sre-app-prod
     patch: |-
       - op: replace
         path: /spec/replicas
