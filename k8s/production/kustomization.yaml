@@ -8,6 +8,7 @@ namespace: syed-prod
 resources:
   - ../base
   - namespace.yaml
+  - ingress.yaml
 
 commonLabels:
   environment: prod
