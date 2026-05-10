@@ -8,6 +8,7 @@ namespace: syed-dev
 resources:
   - ../base
   - namespace.yaml
+  - ingress.yaml
 
 patches:
   - target:
