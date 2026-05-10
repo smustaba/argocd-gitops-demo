@@ -6,7 +6,7 @@ namePrefix: prod-
 namespace: syed-prod
 
 resources:
-  - ../../base
+  - ../base
   - namespace.yaml
 
 commonLabels:
