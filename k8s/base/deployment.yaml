@@ -4,6 +4,7 @@ metadata:
   name: sre-app
 spec:
   replicas: 2
+  revisionHistoryLimit: 2
 
   # ✅ Rollout strategy
   strategy:
