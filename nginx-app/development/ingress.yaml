@@ -8,16 +8,16 @@ spec:
   ingressClassName: nginx
 
   rules:
-  - host: dev.local
+    - host: dev.local
 
-    http:
-      paths:
-      - path: /
-        pathType: Prefix
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
 
-        backend:
-          service:
-            name: dev-nginx-service
+            backend:
+              service:
+                name: dev-nginx-service
 
-            port:
-              number: 80
+                port:
+                  number: 80
