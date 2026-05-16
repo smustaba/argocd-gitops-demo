@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sre-app
+  name: nginx
 spec:
   replicas: 2
   revisionHistoryLimit: 2
@@ -15,12 +15,12 @@ spec:
 
   selector:
     matchLabels:
-      app: sre-app
+      app: nginx
 
   template:
     metadata:
       labels:
-        app: sre-app
+        app: nginx
     spec:
       containers:
         - name: nginx
