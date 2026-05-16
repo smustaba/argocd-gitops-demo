@@ -8,16 +8,16 @@ spec:
   ingressClassName: nginx
 
   rules:
-  - host: prod.local
+    - host: prod.local
 
-    http:
-      paths:
-      - path: /
-        pathType: Prefix
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
 
-        backend:
-          service:
-            name: nginx-prod-service
+            backend:
+              service:
+                name: prod-nginx-service
 
-            port:
-              number: 80
+                port:
+                  number: 80
