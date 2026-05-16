@@ -17,7 +17,7 @@ spec:
 
         backend:
           service:
-            name: dev-sre-service
+            name: nginx-service
 
             port:
               number: 80
