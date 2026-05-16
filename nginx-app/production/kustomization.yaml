@@ -16,9 +16,8 @@ commonLabels:
 patches:
   - target:
       kind: Deployment
-      name: sre-app
+      name: nginx
     patch: |-
       - op: replace
         path: /spec/replicas
         value: 3
-
