@@ -3,7 +3,7 @@ kind: Kustomization
 
 namePrefix: prod-
 
-namespace: syed-prod
+namespace: nginx-prod
 
 resources:
   - ../base
