@@ -17,7 +17,7 @@ spec:
 
         backend:
           service:
-            name: prod-sre-service
+            name: nginx-prod-service
 
             port:
               number: 80
