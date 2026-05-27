@@ -5,7 +5,7 @@ metadata:
   name: postgres
 
 spec:
-  replicas: 1
+  replicas: 2
 
   selector:
     matchLabels:
